@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import './App.css';
+import Post from './Post';
 
 function App() {
   const [dataInfo, setDataInfo] = useState([]);
@@ -34,6 +35,7 @@ function App() {
           ))
         }
       </div>
+      <Post></Post>
     </>
   );
 }
